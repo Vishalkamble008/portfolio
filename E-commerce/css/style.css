@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Mukta Vaani', sans-serif;
+}
+a{
+  text-decoration: none;
+
+}
+.Background{
+  background-image: url(../images/background/hero_1.jpg);
+  height: 100vh;
+  display: inline-block;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  background-color: #001c308b;
+}
+.navigation{
+  position:sticky;
+  top: 0px;
+  z-index: 9999;
+}
+.searchbox{
+  border: none;
+  border-bottom: 2px solid rgb(91, 91, 91);
+  background-color: transparent;
+  padding:10px 20px ;
+}
+.searchbox:focus{
+  outline: none;
+}
+.Shoppingbtn{
+  padding: 5px 5px;
+  background-color: #ffffff;
+}
+.heading{
+  height: 100vh;
+  text-align: center;
+
+}
+li{
+  list-style: none;
+}
+.text{
+font-size: 30px;
+font-weight: 700;
+
+
+}
+.text1{
+  font-size: 22px;
+  line-height: 1.7;
+color: rgba(9, 9, 9, 0.738);
+font-weight: 300;
+
+}
+
+.btn-shop{
+  color: #ffffff;
+  background-color: #6962d8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.icon{
+  font-size: 35px;
+  color: #6962d8;
+  padding: 10px 0;
+}
+.text2{
+  font-size: 20px;
+}
+.image-box{
+  height: 400px;
+  background-image: linear-gradient(to left, #0000009f, #00000096), url(../images/Illustrations/women.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.image-main-box{
+padding-bottom: 100px;
+}
+.image-box1{
+  height: 400px;
+  background-image: linear-gradient(to left, #0000009f, #00000096), url(../images/Illustrations/children.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.image-box2{
+  height: 400px;
+  background-image: linear-gradient(to left, #0000009f, #00000096), url(../images/Illustrations/men.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+.text3{
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.text4{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.text5{
+column-gap: 20px;
+}
+.bgcolor{
+  background-color: #e9e9e9;
+  height: auto;
+  
+}
+.borderline{
+  width: 15%;
+  height: 2px;
+  background-color: #6962d8;
+ 
+}
+
+img{
+  object-fit: cover;
+}
+.bgcolor-box{
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  
+}
+.text6{
+  height: 100px;
+}
+.text-color{
+  color: #6962d8;
+  font-size: 23px;
+  
+}
+.main-price{
+  column-gap: 20px;
+}
+.text7{
+  color: #6962d8;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.text8{
+  color: #6962d8;
+  font-size: 18px;
+}
+.text9{
+  font-size: 17px;
+  color: #8d8d8d;
+  line-height: 1.7;
+}
+.footerbg{
+  background-color: #e9f7ff;
+}
+.menuStyle{
+line-height: 2;
+}
+.menuStyle a{
+  color: #848484;
+  font-size: 17px;
+}
+.text10{
+  font-size: 24px;
+  padding-top: 50px;
+}
+.imagrstyle{
+  border-radius: 7px;
+}
+.text11{
+color: #6962d8;
+font-size: 20px;
+margin: 0;
+}
+.text12{
+  color: #848484;
+  font-size: 17px;
+}
+.icon-contact{
+font-size: 20px;
+color: #6962d8;
+}
+.text13{
+  color: #848484;
+  font-size: 17px;
+  
+}
+.btn-send{
+  color: #ffffff;
+  background-color: #6962d8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.email-box{
+  position: relative;
+}
+.btn-send1{
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  right: 0;
+  left: 169px;
+
+}
+.emailStyle{
+  padding: 11px 50px 11px 20px;
+  border-radius: 7px;
+}
+.Copyright{
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (min-width:768px){
+  .heading{
+    padding: 50px 0 0 450px;
+    text-align: left;
+  }
+  .text{
+    font-size: 50px;
+  }
+  .borderline{
+    width: 7%; 
+  }
+  .menushop{
+    column-gap: 20px;
+  }
+  
+}
+@media (min-width:992px){
+  .heading{
+    padding: 150px 0 0 900px;
+    text-align: left;
+  }
+  .text{
+    font-size: 60px;
+  }
+  .borderline{
+    width: 4%;
+  } 
+}
