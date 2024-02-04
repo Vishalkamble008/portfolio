@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="images/Illustrations/shoe_1.jpg" type="image/jpg">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Vehica</title>
+</head>
+<body>
+  <div class="navbar navbar-expand-lg bg-light navigation">
+    <div class="container">
+      <a href="" class="navbar-brand logoimage"><img src="images/Illustrations/vehica-logo-dark-retina.png" alt="logo"
+          class="w-100 h-100"></a>
+      <button type="button" class="navbar-toggler" data-bs-target="#myMenu" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="myMenu">
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Homepage Mosaic</a></li>
+              <li><a class="dropdown-item" href="#"> Homepage Location</a></li>
+              <li><a class="dropdown-item" href="#"> Homepage Modern</a></li>
+              <li><a class="dropdown-item" href="#">Homepage Car Dealer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" role="button"
+              data-bs-toggle="dropdown">Search</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Homepage Mosaic</a></li>
+              <li><a class="dropdown-item" href="#"> Homepage Location</a></li>
+              <li><a class="dropdown-item" href="#"> Homepage Modern</a></li>
+              <li><a class="dropdown-item" href="#">Homepage Car Dealer</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Listing</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ABOUT</a></li>
+              <li><a class="dropdown-item" href="#">SERVICES</a></li>
+              <li><a class="dropdown-item" href="#">ELEMENTS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">More</a></li>
+        </ul>
+      </nav>
+      <menu class="navbar-nav d-none d-lg-flex">
+        <li class="nav-item"><a href="#" class="nav-link"><i class="fa-regular fa-user icon-color"></i><span
+              class="border-end border-dark px-3">Log in</span></a></li>
+        <li class="nav-item"><a href="#" class="nav-link pe-3">Register</a></li>
+        <li class="nav-item"><a href="#" class="nav-link btn btnAdd" role="button"><i class="fa-solid fa-plus"></i><span
+              class="ps-2"> Add Listing</span></a></li>
+      </menu>
+    </div>
+  </div>
+  <section class="container-fluid Background">
+    <div class="container">
+      <div class="d-flex flex-column justify-content-center align-items-center herosection py-5">
+        <h1 class="text1 text-light text-center ">Find Your <span class="text2">Perfect</span> Car</h1>
+        <div>
+          <menu class="nav py-4 ">
+            <li class="nav-item "> <a href="#home" class="nav-link menucolor active" data-bs-toggle="tab">All </a></li>
+            <li class="nav-item ps-lg-5"><a href="#about" class="nav-link menucolor" data-bs-toggle="tab">New</a></li>
+            <li class="nav-item ps-lg-5"><a href="#used" class="nav-link menucolor" data-bs-toggle="tab">Used</a></li>
+          </menu>
+          <div class="tab-content">
+            <div class="tab-pane fade show active box-position-move" id="home">
+              <p class="lead box-color"></p>
+            </div>
+            <div class="tab-pane fade box-position-move" id="about">
+              <p class="lead box-color1"></p>
+            </div>
+            <div class="tab-pane fade box-position-move" id="used">
+              <p class="lead box-color2"></p>
+            </div>
+          </div>
+        </div>
+        <div class="selectBg-box">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-3 pb-3 pb-lg-0">
+              <select name="" id="" class="form-select">
+                <option value="" selected>All Makes</option>
+                <option value="">Bentley</option>
+                <option value="">BMW</option>
+                <option value="">Cadillac</option>
+                <option value="">Chevrolet</option>
+                <option value="">Ferrari</option>
+                <option value="">Ford</option>
+                <option value="">Mercedes-Benz</option>
+                <option value="">Porsche</option>
+              </select>
+            </div>
+            <div class="col-12 col-lg-3 pb-3 pb-lg-0">
+              <select name="" id="" class="form-select">
+                <option value="" selected>All Models</option>
+                <option value="">Bentley</option>
+                <option value="">BMW</option>
+                <option value="">Cadillac</option>
+                <option value="">Chevrolet</option>
+                <option value="">Ferrari</option>
+                <option value="">Ford</option>
+                <option value="">Mercedes-Benz</option>
+                <option value="">Porsche</option>
+              </select>
+            </div>
+            <div class="col-12 col-lg-3 pb-3 pb-lg-0">
+              <select name="" id="" class="form-select">
+                <option value="" selected>Max Price</option>
+                <option value="">&dollar;20,000</option>
+                <option value="">&dollar;25,460</option>
+                <option value="">&dollar;20,080</option>
+                <option value="">&dollar;50,000</option>
+              </select>
+            </div>
+            <div class="col-12 col-lg-1  pb-lg-0">
+              <button type="button" class="btn Search-btn"> <span class="text-light d-lg-none d-inline">Search</span> <i
+                  class="fa-solid fa-magnifying-glass text-light"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 col-md-2 col-lg-2 car-image-box">
+            <div class="pt-lg-5 pt-5 "><img src="images/Illustrations/car-1.png" alt="car-1"
+                class="car-images w-100 h-100 rounded-circle p-3 bg-light"></div>
+            <p class="text-center text-light pt-3">Sedan</p>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 car-image-box">
+            <div class="pt-lg-5 pt-5 "><img src="images/Illustrations/car-2.png" alt="car-2"
+                class="car-images w-100 h-100 rounded-circle p-3 bg-light"></div>
+            <p class="text-center text-light pt-3">Coupe</p>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 car-image-box">
+            <div class="pt-lg-5 pt-5 "><img src="images/Illustrations/car-3.png" alt="car-3"
+                class="car-images w-100 h-100 rounded-circle p-3 bg-light"></div>
+            <p class="text-center text-light pt-3">SUV</p>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 car-image-box">
+            <div class="pt-lg-5  pt-md-5 "><img src="images/Illustrations/car-4.png" alt="car-4"
+                class="car-images w-100 h-100 rounded-circle p-3 bg-light"></div>
+            <p class="text-center text-light pt-3">Hatchback</p>
+          </div>
+          <div class="col-4 col-md-2 col-lg-2 car-image-box">
+            <div class="pt-lg-5 pt-md-5"><img src="images/Illustrations/car-5.png" alt="car-5"
+                class="car-images w-100 h-100 rounded-circle p-3 bg-light"></div>
+            <p class="text-center text-light pt-3">Convertible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row justify-content-between pt-5 text-center text-lg-start">
+        <div class="col-lg-6 ">
+          <p class="text3 mb-0">Handy picked</p>
+          <h3 class="heading">Featured Listings</h3>
+        </div>
+        <menu class="nav nav-pills py-4 col-lg-3 justify-content-center pe-0">
+          <li class="nav-item "><a href="#myNew" class="nav-link menucar active" data-bs-toggle="tab"
+              role="button">New</a></li>
+          <li class="nav-item ps-lg-3 ps-md-4 ps-3"><a href="#myUsed" class="nav-link menucar " data-bs-toggle="tab"
+              role="button">Used</a></li>
+        </menu>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="myNew">
+            <div class="lead row justify-content-center ">
+              <div class="col-lg-6 d-none d-lg-block ps-0  pt-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx1">
+                    <img src="images/Illustrations/6.jpg" alt="6" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx px-4 ">
+                    <h4 class="border-bottom  py-3  ">BMW 8-serie 2-door coupe grey</h4>
+                    <div class="row py-3 ">
+                      <div class=" col-2">
+                        <button type="button" class="btn btncolor ">2021</button>
+                      </div>
+                      <ul class="list-inline col-7 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-light">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light">Petrol</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light"> Front Wheel Drive</a></li>
+                      </ul>
+                      <h4 class="col-2">&dollar;62,000</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 row ">
+                <div class="col-lg-6 col-md-6 pt-2 pt-md-3 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/5.jpg" alt="5" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">Chevrolet Camaro 2-door</h4>
+                        <h4 class="col-2">&dollar;40,000</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2021</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/car-red.jpg" alt="car-red" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">
+                          Ferrari LaFerrari 2-door</h4>
+                        <h4 class="col-2">&dollar;810,000</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2021</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-4  pt-md-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/audi3.jpg" alt="6" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 "> Audi A8 4-door</h4>
+                        <h4 class="col-2">&dollar;70,000</h4>
+                      </div>
+                      <div class="row pt-3  ">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2021</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-4  pt-md-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/mrec.jpg" alt="6" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">Mercedes-Benz S-class</h4>
+                        <h4 class="col-2">&dollar;76,000</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2021</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-6 d-md-flex text5">
+                  <p class="heading1">Follow us</p>
+                  <menu class="list-inline  pt-md-5">
+                    <li class="list-inline-item bg-secondary rounded-circle"><a href="#"><i
+                          class="fa-brands fa-facebook-f  text-dark icon-style"></i></a></li>
+                    <li class="list-inline-item bg-secondary rounded-circle"><a href="#"><i
+                          class="fa-brands fa-twitter text-dark icon-style1 "></i></a></li>
+                    <li class="list-inline-item bg-secondary rounded-circle "><a href="#"><i
+                          class="fa-brands fa-instagram  text-dark icon-style1"></i></a></li>
+                  </menu>
+                </div>
+                <div class="col-12 col-md-6 ">
+                  <div class="pt-5 text-end"><button type="button " class="btn-view btn  ">View 29 New</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="myUsed">
+            <div class="lead row justify-content-center ">
+              <div class="col-lg-6 d-none d-lg-block ps-0  pt-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx1">
+                    <img src="images/Illustrations/2-4.jpg" alt="2-4" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx px-4 ">
+                    <h4 class="border-bottom  py-3  ">Mercedes-Benz AMG GT 2-door coupe yellow</h4>
+                    <div class="row py-3 ">
+                      <div class=" col-2">
+                        <button type="button" class="btn btncolor ">2021</button>
+                      </div>
+                      <ul class="list-inline col-7 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-light">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light">Petrol</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light"> Front Wheel Drive</a></li>
+                      </ul>
+                      <h4 class="col-2">&dollar;14,600</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 row ">
+                <div class="col-lg-6 col-md-6 pt-2 pt-md-3 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/1-42-1024x683.jpg" alt="1-42-1024x683"
+                        class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">Porsche Macan 5-door</h4>
+                        <h4 class="col-2">&dollar;14,600</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2018</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/audi1.jpg" alt="car-red" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">Audi A4 4-door sedan</h4>
+                        <h4 class="col-2">&dollar;23,000</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2020</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-4  pt-md-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/audi5.jpg" alt="audi5" class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 "> Audi A8 4-door</h4>
+                        <h4 class="col-2">&dollar;16,600</h4>
+                      </div>
+                      <div class="row pt-3  ">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2017</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 pt-4  pt-md-4 pt-lg-3">
+                  <div class=" text-light">
+                    <div class="imageCarBOx3">
+                      <img src="images/Illustrations/1-32-1024x683.jpg" alt="1-32-1024x683"
+                        class="w-100 h-100 imageblog">
+                    </div>
+                    <div class="bg-dark imageCarBOx2 px-4 ">
+                      <div class=" border-bottom pt-3 ">
+                        <h4 class="text4 ">Audi sedan silver</h4>
+                        <h4 class="col-2">&dollar;38,000</h4>
+                      </div>
+                      <div class="row pt-3">
+                        <div class=" col-4">
+                          <button type="button" class="btn btncolor ">2016</button>
+                        </div>
+                        <ul class="list-inline col-8 pt-2">
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                          <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 d-md-flex text5">
+                <p class="heading1">Follow us</p>
+                <menu class="list-inline  pt-md-5">
+                  <li class="list-inline-item bg-secondary rounded-circle"><a href="#"><i
+                        class="fa-brands fa-facebook-f  text-dark icon-style"></i></a></li>
+                  <li class="list-inline-item bg-secondary rounded-circle"><a href="#"><i
+                        class="fa-brands fa-twitter text-dark icon-style1 "></i></a></li>
+                  <li class="list-inline-item bg-secondary rounded-circle "><a href="#"><i
+                        class="fa-brands fa-instagram  text-dark icon-style1"></i></a></li>
+                </menu>
+              </div>
+              <div class="col-12 col-md-6 ">
+                <div class="pt-5 text-end"><button type="button " class="btn-view btn  ">View 45 New</button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row pt-5 ">
+        <div class="col-lg-6 col-md-12 text-center text-lg-start heading">Popular Makes</div>
+        <div class="col-lg-6 col-md-12 ">
+          <menu class="nav nav-pills carsMenu row pb-4">
+            <li class="nav-item ps-lg-5 col-6 pt-md-4 col-md-3"> <a href="#Audi" class="nav-link menucar1 active"
+                data-bs-toggle="tab" role="button">Audi </a></li>
+            <li class="nav-item ps-lg-1 ps-md-3 col-6 pt-md-4 col-md-3"><a href="#BMW" class="nav-link menucar1"
+                data-bs-toggle="tab" role="button">BMW</a></li>
+            <li class="nav-item ps-lg-1 ps-md-3 col-6 pt-3 pt-md-4 col-md-3"><a href="#Cadillac"
+                class="nav-link menucar1" data-bs-toggle="tab" role="button">Cadillac</a></li>
+            <li class="nav-item ps-lg-1 ps-md-3 col-6 pt-3 pt-md-4 col-md-3"><a href="#Ferrari"
+                class="nav-link menucar1" data-bs-toggle="tab" role="button">Ferrari</a></li>
+          </menu>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="Audi">
+            <div class=" row ">
+              <div class="col-lg-3 col-md-6 pt-4 pt-md-3 pt-lg-3 ">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/audi1.jpg" alt="audi1" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Chevrolet Camaro 2-door</h4>
+                      <h4 class="col-2">&dollar;23,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2017</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/audi3.jpg" alt="audi3" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">
+                        Ferrari LaFerrari 2-door</h4>
+                      <h4 class="col-2">&dollar;70,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2020</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Diesel</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/audi5.jpg" alt="audi5" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 "> Audi A8 4-door</h4>
+                      <h4 class="col-2">&dollar;14,600</h4>
+                    </div>
+                    <div class="row pt-3  ">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2021</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-32-1024x683.jpg" alt="1-32-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Audi A8 sedan silver</h4>
+                      <h4 class="col-2">&dollar;30,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2016</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">400,000 miles</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-5 text-center"><button type="button " class="btn-view btn  ">Audi 21 New</button></div>
+          </div>
+          <div class="tab-pane fade" id="BMW">
+            <div class=" row ">
+              <div class="col-lg-3 col-md-6 pt-4 pt-md-3 pt-lg-3 ">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/6.jpg" alt="audi1" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Chevrolet Camaro 2-door</h4>
+                      <h4 class="col-2">&dollar;23,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2017</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-64-1024x683.jpg" alt="1-64-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">
+                        BMW X7 5-door SUV</h4>
+                      <h4 class="col-2">&dollar;17,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2021</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Diesel</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-54-1024x683.jpg" alt="1-54-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">BMW 7-serie 4-door</h4>
+                      <h4 class="col-2">&dollar;13,600</h4>
+                    </div>
+                    <div class="row pt-3  ">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2022</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-44-1024x683.jpg" alt="1-44-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">BMW 6-serie 2-door</h4>
+                      <h4 class="col-2">&dollar;14,600</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2020</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">400,000 miles</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-5 text-center"><button type="button " class="btn-view btn  ">BMW 15 New</button></div>
+          </div>
+          <div class="tab-pane fade" id="Cadillac">
+            <div class=" row ">
+              <div class="col-lg-3 col-md-6 pt-4 pt-md-3 pt-lg-3 ">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-59-1024x683.jpg" alt="1-59-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Cadillac Escalade 5-door</h4>
+                      <h4 class="col-2">&dollar;14,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2015</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-31.jpg" alt="1-31" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">
+                        Cadillac ATS 2-door</h4>
+                      <h4 class="col-2">&dollar;13,500</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2017</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Diesel</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/3-47-1024x683.jpg" alt="3-47-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 "> Cadillac CTS 4-door</h4>
+                      <h4 class="col-2">&dollar;14,600</h4>
+                    </div>
+                    <div class="row pt-3  ">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2018</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-64-1024x683.jpg" alt="1-64-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Cadillac Escalade</h4>
+                      <h4 class="col-2">&dollar;61,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2016</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">400,000 miles</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-5 text-center"><button type="button " class="btn-view btn  ">Cadillac 25 New</button></div>
+          </div>
+          <div class="tab-pane fade" id="Ferrari">
+            <div class=" row ">
+              <div class="col-lg-3 col-md-6 pt-4 pt-md-3 pt-lg-3 ">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/car-red.jpg" alt="car-red" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Chevrolet Camaro 2-door</h4>
+                      <h4 class="col-2">&dollar;23,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2017</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-md-3 pt-4 pt-lg-3">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-67-1024x683.jpg" alt="1-67-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">
+                        Ferrari LaFerrari 2-door</h4>
+                      <h4 class="col-2">&dollar;70,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2020</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Diesel</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-49-1024x683.jpg" alt="1-49-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 "> Audi A8 4-door</h4>
+                      <h4 class="col-2">&dollar;14,600</h4>
+                    </div>
+                    <div class="row pt-3  ">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2021</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Automatic</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 pt-4  pt-md-4 pt-lg-3 d-none d-lg-block">
+                <div class=" text-light">
+                  <div class="imageCarBOx3">
+                    <img src="images/Illustrations/1-44-1024x683.jpg" alt="1-44-1024x683" class="w-100 h-100 imageblog">
+                  </div>
+                  <div class="bg-dark imageCarBOx2 px-4 ">
+                    <div class=" border-bottom pt-3 ">
+                      <h4 class="text4 ">Audi A8 sedan silver</h4>
+                      <h4 class="col-2">&dollar;30,000</h4>
+                    </div>
+                    <div class="row pt-3">
+                      <div class=" col-4">
+                        <button type="button" class="btn btncolor ">2016</button>
+                      </div>
+                      <ul class="list-inline col-8 pt-2">
+                        <li class="list-inline-item"><a href="#" class="text-secondary">400,000 miles</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-secondary">Petrol</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="py-5 text-center"><button type="button " class="btn-view btn  ">Ferrari 19 New</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h2 class="heading2">Why choose us?</h2>
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="text-center pt-5">
+            <div class="icon-style2 mx-auto">
+              <svg class="ele" xmlns="http://www.w3.org/2000/svg" width="24" height="34" viewBox="0 0 24 34"><g id="medal" transform="translate(-71.962)"><path id="Path_20" data-name="Path 20" d="M89.3,23.828l1.527-2.523,2.755-.957.305-2.947,2.073-2.078-.985-2.789.985-2.79L93.889,7.666l-.305-2.947-2.755-.957L89.3,1.239l-2.888.355L83.962,0,81.509,1.594l-2.887-.355L77.1,3.762l-2.755.957-.305,2.947L71.962,9.744l.985,2.79-.985,2.79L74.035,17.4l.305,2.947,2.755.957,1.527,2.523,2.888-.355,2.453,1.594,2.453-1.594ZM75.523,12.534a8.441,8.441,0,1,1,16.879,0,8.441,8.441,0,1,1-16.879,0Z" transform="translate(0 0)" fill="#ff4605"></path><path id="Path_21" data-name="Path 21" d="M163.072,89.333a6.6,6.6,0,1,0,6.482,6.6A6.55,6.55,0,0,0,163.072,89.333Z" transform="translate(-79.11 -83.401)" fill="#ff4605"></path><path id="Path_22" data-name="Path 22" d="M89.039,345.326l-3.435.422-1.815-3-.617-.214-2.661,8.471,4.791-.268,3.748,3.051,2.206-7.021Z" transform="translate(-7.992 -319.789)" fill="#ff4605"></path><path id="Path_23" data-name="Path 23" d="M274.168,342.749l-1.815,3-3.435-.422-2.217,1.441,2.206,7.021,3.748-3.051,4.791.268-2.661-8.471Z" transform="translate(-182.041 -319.789)" fill="#ff4605"></path></g></svg>
+            </div>
+            <h4 class="heading3">Wide range of brands</h4>
+            <p class="text7">We can help with your financing plan, we can offer some tips and tricks. Drive off with
+              this dream car of yours regardless of your credit history.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="text-center pt-5">
+            <div class="icon-style3 mx-auto">
+              <svg class="ele " xmlns="http://www.w3.org/2000/svg" width="37.001" height="32" viewBox="0 0 37.001 32"><g id="trust" transform="translate(0.001)"><path id="Path_271" data-name="Path 271" d="M243.168,1.072a1.084,1.084,0,0,0-2.168,0V5.665a1.084,1.084,0,0,0,2.168,0Zm0,0" transform="translate(-223.585)" fill="#49df0b"></path><path id="Path_272" data-name="Path 272" d="M147.238,52.326a1.092,1.092,0,0,0,1.533,0,1.064,1.064,0,0,0,0-1.516l-2.322-2.3a1.092,1.092,0,0,0-1.533,0,1.064,1.064,0,0,0,0,1.516Zm0,0" transform="translate(-134.149 -44.754)" fill="#49df0b"></path><path id="Path_273" data-name="Path 273" d="M306.35,52.64a1.086,1.086,0,0,0,.766-.314l2.322-2.3a1.064,1.064,0,0,0,0-1.516,1.092,1.092,0,0,0-1.533,0l-2.322,2.3a1.063,1.063,0,0,0,0,1.516,1.087,1.087,0,0,0,.766.314Zm0,0" transform="translate(-283.206 -44.754)" fill="#49df0b"></path><path id="Path_274" data-name="Path 274" d="M15.364,141.319l-.032.027-4.687,3.973a2.418,2.418,0,0,1-1.562.571H5.727A5.693,5.693,0,0,0,0,151.554V161.89a1.078,1.078,0,0,0,1.084,1.072h9.288a1.078,1.078,0,0,0,1.084-1.072v-9.842l5.516-4.676a1.251,1.251,0,0,0,.444-.954V142.3a1.266,1.266,0,0,0-2.052-.983Zm0,0" transform="translate(0 -130.962)" fill="#49df0b"></path><path id="Path_275" data-name="Path 275" d="M282.689,145.89h-3.357a2.417,2.417,0,0,1-1.562-.571l-4.687-3.973-.032-.027A1.266,1.266,0,0,0,271,142.3v4.116a1.251,1.251,0,0,0,.444.954l5.516,4.676v9.841a1.078,1.078,0,0,0,1.084,1.072h9.288a1.078,1.078,0,0,0,1.084-1.072V151.554a5.693,5.693,0,0,0-5.727-5.664Zm0,0" transform="translate(-251.416 -130.962)" fill="#49df0b"></path><path id="Path_276" data-name="Path 276" d="M25.2,86.982A4.567,4.567,0,1,0,20.634,91.5,4.547,4.547,0,0,0,25.2,86.982Zm0,0" transform="translate(-14.906 -76.571)" fill="#49df0b"></path><path id="Path_277" data-name="Path 277" d="M378.67,86.982A4.567,4.567,0,1,0,374.1,91.5,4.547,4.547,0,0,0,378.67,86.982Zm0,0" transform="translate(-342.831 -76.571)" fill="#49df0b"></path></g></svg>
+            </div>
+            <h4 class="heading3">Trusted by our clients</h4>
+            <p class="text7">We can help with your financing plan, we can offer some tips and tricks. Drive off with
+              this dream car of yours regardless of your credit history.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="text-center pt-5">
+            <div class="icon-style4 mx-auto">
+              <svg class="ele" xmlns="http://www.w3.org/2000/svg" width="28" height="44.654" viewBox="0 0 28 44.654"><g id="money2" transform="translate(-91.358)"><g id="Group_568" data-name="Group 568" transform="translate(91.358)"><g id="Group_564" data-name="Group 564" transform="translate(0)"><path id="Path_288" data-name="Path 288" d="M118.257,24.848c-.5-.392-5.733-6.2-7.146-7.019V2.762A2.76,2.76,0,0,0,108.348,0H94.12a2.76,2.76,0,0,0-2.762,2.762V29.141A2.76,2.76,0,0,0,94.12,31.9h6.2l-.255-2.169c-.082-.073-.137-.118-.219-.191H97.11a2.8,2.8,0,0,0-3.4-3.409V5.6a3.126,3.126,0,0,0,.51.046,2.8,2.8,0,0,0,2.8-2.8,3,3,0,0,0-.046-.492h8.5a3,3,0,0,0-.046.492,2.793,2.793,0,0,0,2.8,2.8,3.126,3.126,0,0,0,.51-.046V25.641h0V31.4a10.463,10.463,0,0,1-2.042-2.935s-.529-5.916-3.528-5.916a2.059,2.059,0,0,0-.237.009s-2.27.191-.392,6.681l.839,7.21a16.375,16.375,0,0,0,3.528,6.618v.8a.784.784,0,0,0,.784.784h8.431a.78.78,0,0,0,.775-.693c.3-2.807,1.468-13.244,2.151-14.83a2.992,2.992,0,0,0,.237-.784A3.6,3.6,0,0,0,118.257,24.848Z" transform="translate(-91.358 0)" fill="#0575ff"></path></g><g id="Group_565" data-name="Group 565" transform="translate(8.504 5.642)"><circle id="Ellipse_125" data-name="Ellipse 125" cx="1.677" cy="1.677" r="1.677" fill="#0575ff"></circle></g><path id="Union_22" data-name="Union 22" d="M-16320,20218.059a6.054,6.054,0,0,1,6.055-6.059,6.063,6.063,0,0,1,6.061,6.059,6.066,6.066,0,0,1-1.913,4.422,4.662,4.662,0,0,0-2.2-.543,3.734,3.734,0,0,0-.492.025,3.5,3.5,0,0,0-2.518,1.578,4.23,4.23,0,0,0-.264.436A6.072,6.072,0,0,1-16320,20218.059Z" transform="translate(16323.819 -20201.918)" fill="#0575ff"></path></g></g></svg>
+            </div>
+            <h4 class="heading3">Fast &amp; easy financing</h4>
+            <p class="text7">We can help with your financing plan, we can offer some tips and tricks. Drive off with
+              this dream car of yours regardless of your credit history.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" py-5">
+    <div class="container bg-dark rounded-4">
+      <div class="row py-5">
+        <div class="col-12 col-lg-4 text-light">
+          <h2 class="heading4 text-md-start ps-md-5">
+            Our team
+          </h2>
+          <menu class="menu-team">
+            <li>Praesent nibh luctus viverra</li>
+            <li>Adipiscing elit</li>
+            <li>Tempor incididunt ut labore</li>
+            <li>Quis ipsum suspendisseviverra</li>
+            <li>Maecenas ac</li>
+          </menu>
+          <div class="py-5 ps-lg-5"><button type="button" class="Learn-morebtn col-lg-3 ">Learn more</button></div>
+        </div>
+        <div class="col-12 col-lg-8 d-flex teamAll">
+          <div class="imagesteam ">
+            <div><img src="images/Illustrations/p7-1-336x284.jpg" alt="" class="w-100 h-100"></div>
+            <div class="bg-light  bgcolortext px-4">
+              <div class="iconposition">
+                <i class="fa-solid fa-phone phone-icon me-2"></i>
+                <i class="fa-solid fa-envelope phone-icon"></i>
+              </div>
+              <div class="border-bottom ">
+                <h5 class="heading5">Emily Rees</h5>
+                <p class="text-secondary">Customer Advisor</p>
+              </div>
+              <div class="py-3 ">
+                <p class="m-0"><a href="#" class="socialcontact">emily@vehica.com</a></p>
+                <p><a href="#" class="socialcontact">(123) 345-6789</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="imagesteam d-none d-md-block ">
+            <div><img src="images/Illustrations/p4-1-336x284.jpg" alt="" class="w-100 h-100"></div>
+            <div class="bg-light  bgcolortext px-4">
+              <div class="iconposition">
+                <i class="fa-solid fa-phone phone-icon me-2"></i>
+                <i class="fa-solid fa-envelope phone-icon"></i>
+              </div>
+              <div class="border-bottom ">
+                <h5 class="heading5">Isabella Evans</h5>
+                <p class="text-secondary">Customer Advisor</p>
+              </div>
+              <div class="py-3 ">
+                <p class="m-0"><a href="#" class="socialcontact">emily@vehica.com</a></p>
+                <p><a href="#" class="socialcontact">(123) 345-6789</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="imagesteam d-none d-lg-block">
+            <div><img src="images/Illustrations/p3-1-336x284.jpg" alt="" class="w-100 h-100"></div>
+            <div class="bg-light  bgcolortext px-4">
+              <div class="iconposition">
+                <i class="fa-solid fa-phone phone-icon me-2"></i>
+                <i class="fa-solid fa-envelope phone-icon"></i>
+              </div>
+              <div class="border-bottom ">
+                <h5 class="heading5">George Brown</h5>
+                <p class="text-secondary">Customer Advisor</p>
+              </div>
+              <div class="py-3 ">
+                <p class="m-0"><a href="#" class="socialcontact">emily@vehica.com</a></p>
+                <p><a href="#" class="socialcontact">(123) 345-6789</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container pb-5 pt-3">
+      <div class="row">
+        <div class="col-lg-3 col-12 col-md-6">
+          <div class="box"><img src="images/Illustrations/audiojungle.png" alt="audiojungle"
+              class="w-100 h-100 carlogo px-5">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-none d-md-block">
+          <div><img src="images/Illustrations/codecanyon.png" alt="codecanyon" class="w-100 h-100 carlogo px-5"></div>
+        </div>
+        <div class="col-lg-3 d-none d-lg-block">
+          <div><img src="images/Illustrations/graphicriver.png" alt="graphicriver" class="w-100 h-100 carlogo px-5">
+          </div>
+        </div>
+        <div class="col-lg-3 d-none d-lg-block">
+          <div><img src="images/Illustrations/themeforest.png" alt="themeforest" class="w-100 h-100 carlogo px-5"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="phoneimagebox">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pe-lg-5 pt-3 px-4">
+          <div class="row bgcolorcar">
+            <div class="col-lg-6">
+              <h3 class="heading6 text-center">Download our app</h3>
+              <div>
+                <div class="text-center pt-4 pt-lg-2">
+                  <button type="button" class="btn-ios">
+                    <i class="fa-brands fa-apple play-icon"></i> For iOS
+                  </button>
+                </div>
+                <div class="text-center pt-3">
+                  <button type="button" class="btn-ios ">
+                    <i class="fa-brands fa-google-play play-icon"></i> For Android
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center"><img src="images/Illustrations/phone.png" alt="phone" class="phonebox">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 ps-lg-2 pt-3 px-4">
+          <div class="row bgcolorcar1  align-items-center">
+            <div class="col-lg-6">
+              <h3 class="heading7 ps-2 text-center text-lg-start">How to buy a car?</h3>
+              <div class="py-4 ps-lg-5 d-none d-lg-block"><button type="button" class="btn-Read">Read more</button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <menu class="menu-team1">
+                <li class="fs-5">best deals</li>
+                <li class="fs-5">sell your car</li>
+                <li class="fs-5">car book values</li>
+                <li class="fs-5">car dealers</li>
+                <li class="fs-5">compare prices</li>
+              </menu>
+            </div>
+            <div class="py-4 ps-lg-5 d-block d-lg-none"><button type="button" class="btn-Read w-100">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="border-top  ">
+    <div class="container py-5">
+      <div class=" d-flex  flex-column flex-lg-row justify-content-lg-between text-center">
+        <div class="text10">
+          <h2 class="text8">Newsletter</h2>
+        </div>
+        <div class="row text11">
+          <div class="col-lg-7"><input type="email" placeholder="Your Email Address" onfocus="this.placeholder=''"
+              onblur="this.placeholder='Your Email Address'" class="emailtext"></div>
+          <div class="col-lg-5 mt-3 mt-lg-0"><button type="button" class="btn-sing">Sing Up</button></div>
+        </div>
+        <div class="text9">Subscribe to our newsletter and stay updated with our offer.</div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="vehica-img pt-md-4 ps-5 pb-4">
+            <img src="images/Illustrations/vehica-logo-white-retina.png" alt="vehica-logo-white-retina"
+              class="w-100 h-100 ">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="row ps-4 ps-md-0">
+            <menu class="col-6 menuabout">
+              <li><a href="#" class="myMenu1">Listings</a></li>
+              <li><a href="#" class="myMenu1">FAQ</a></li>
+              <li><a href="#" class="myMenu1">About us</a></li>
+            </menu>
+            <menu class="col-6  menuabout">
+              <li><a href="#" class="myMenu1">Blog</a></li>
+              <li><a href="#" class="myMenu1">Our team</a></li>
+              <li><a href="#" class="myMenu1">Contact</a></li>
+            </menu>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <p class="text-light text-center pt-4 pt-lg-0">Award-winning, family owned dealership of new and pre-owned
+            vehicles with several locations across the city. Lowest prices and the best customer service guaranteed.</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 text-center text-lg-end pt-4 pt-lg-0">
+          <h1><a href="#" class="contactsize">(123) <span class="contactcolor">456-78901</span> </a></h1>
+          <p><a href="#" class="text-light">support@vehica.com</a></p>
+          <address class="text-light">West 12th Street <br>
+            New York, NY, USA</address>
+        </div>
+      </div>
+    </div>
+    <div class="container border-top ">
+      <div class="row text-center py-4">
+        <div class="col-lg-6 text-lg-start">
+          <p class="text-light">Copyright &copy; 2021. All rights reserved.</p>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <menu class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-light"><i
+                  class="fa-brands fa-facebook-f iconbg1"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-light"><i class="fa-brands fa-twitter iconbg"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" class="text-light"><i
+                  class="fa-brands fa-instagram iconbg"></i></a></li>
+          </menu>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
